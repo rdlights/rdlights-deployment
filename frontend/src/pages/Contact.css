@@ -1,0 +1,91 @@
+/* Container to center the form vertically and horizontally */
+.contact-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0; /* Background color for the entire page */
+    padding-right: 10rem; /* Optional padding to add space on the right */
+}
+
+/* Styling for the form container */
+.form-container {
+    width: 80%;
+    max-width: 500px;
+    padding: 2rem;
+    background-color: #ffd401;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    text-align: center;
+    border-radius: 5%;
+    margin-top: -8rem;
+    margin-right: -5rem;
+}
+
+/* Styling for form elements */
+.form-container label {
+    display: block;
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+.form-container input,
+.form-container textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.form-container button {
+    padding: 0.7rem 1.5rem;
+    background-color: #2D3194;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.form-container button:hover {
+    background-color: #555; /* Change color on hover */
+}
+
+.form-group{
+    display: flex;
+    justify-content: space-between;
+    gap: 2.5rem; /* Adds space between fields */
+    margin-bottom: 1rem;
+}
+
+.form-group label {
+    flex: 1; /* Ensures both inputs are the same width */
+    display: flex;
+    flex-direction: column;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    resize: vertical;
+}
+
+.header-container {
+    text-align: center; /* Center-align the header and description */
+    margin-bottom: 20px; /* Add spacing below the description */
+    margin-right: 15rem;
+    margin-bottom: 18rem;
+}
+
+.header-container h1 {
+    margin-bottom: 10px; /* Reduce spacing between the header and description */
+    font-size: 5rem; /* Adjust font size if needed */
+    color: #2D3194; /* Customize the header color */
+}
+
+.header-container p {
+    font-size: 2rem; /* Adjust font size for the description */
+    color: #333; /* Customize the description color */
+}

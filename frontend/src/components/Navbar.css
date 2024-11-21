@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@320&display=swap');
+
+/* Navbar Styles */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #2D3194; /* Dark background color */
+    color: #fff; /* White text color */
+    font-family: "Josefin Sans", sans-serif;
+    margin:0;
+}
+
+.navbar-links {
+    display: flex;
+    align-items: center;
+    margin: 0 2rem;
+    list-style-type: none;
+    position: relative;
+    left: -70px; /* Adjust to move it to the left */
+}
+
+.navbar-links img {
+    width: 150px; /* Example width */
+    height: auto;
+}
+
+.navbar-link.active {
+    text-decoration: underline; /* Underline the active link */
+    font-weight: bold;          /* Optional: Make active link bold */
+}
+
+.navbar-link {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 2rem;
+    font-size: 1.7rem;
+    display: inline-block;
+}
+
+.navbar-link-contact {
+    color: #2D3194;
+    text-decoration: none;
+    margin: .25rem 1rem;
+    font-size: 1.5rem;
+    display: inline-block;
+}
+
+.navbar-link:hover {
+    color: #FFD401; /* Hover effect color */
+}
+
+.contact-button {
+    background-color: #FFD401; /* Yellow button color */
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 30px;
+    cursor: pointer;
+    position: relative;
+    left: -30px; /* Adjust to move it to the left */
+}
+
+.contact-button:hover {
+    background-color: #ffd50195; /* Darker orange on hover */
+}

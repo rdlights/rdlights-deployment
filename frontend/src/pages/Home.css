@@ -1,0 +1,156 @@
+/* Ensure the Elephant font is applied to everything text-wise */
+* {
+    font-family: "Elephant" !important;
+}
+
+
+.home-page {
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(255, 212, 1, 0.45), rgba(255, 212, 1, 0.2)),
+    url('../images/RDLightsImage2.png');
+    background-size: 100% 50%;      
+    background-repeat: no-repeat; 
+    background-position: center -1%; /* Moves the image down by 20% */
+
+    margin: 0;                
+    font-family: "Josefin Sans", sans-serif; 
+    overflow-y: none; /* Ensures vertical scroll if content exceeds viewport */
+}
+
+.homepageRight {
+    color: #2D3194; /* Adjust text color if needed for readability */
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 2rem;
+    min-height: 95vh;
+    width: 30vw;          /* Adjust width to control horizontal coverage */
+    margin-left: auto;    /* Aligns it to the right */
+    flex-direction: column;
+    justify-content: center; 
+}
+
+.homepageRight h1{
+    font-size: 5rem !important;
+    font-family: "Elephant", Serif;
+}
+
+.homepageRight p{
+    font-size: 2rem;
+    line-height: 5rem;
+}
+
+.split-section{
+    margin-top: -200px;
+    display: flex;
+    justify-content: space-between; /* Adds space between left and right boxes */
+    align-items: stretch;
+    height: 50vh; /* Adjust height as needed */
+}
+
+.Lcontent-section{
+    flex: 1;
+    background-color: #FFD401;
+    background-image: url('../images/richardheadshop-.jpg');
+    background-size: 80%;  
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: 50%;
+}
+
+.Rcontent-section{
+    flex: 2;
+    background-color: white;
+    display: flex;                /* Makes right-box a flex container */
+    justify-content: center;      /* Centers content horizontally */
+    align-items: center;          /* Centers content vertically */
+    text-align: center;           /* Center-aligns the text inside */
+    flex-direction: column;
+}
+
+.Rcontent-section h1{
+    color: #2D3194;
+    font-size: 50px;
+}
+
+.Rcontent-section h2{
+    margin: 0 10px;
+    color: #2D3194;
+}
+
+.third-section{
+    background-color: #2D3194;
+    height: 55vh;
+    text-align: center;
+    color: white;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 0 10px;
+    line-height: 85px;
+}
+
+.homepageRight button{
+    width: 5rem;
+    height: 5rem;
+    border: solid #2D3194;
+    border-width: 0 7.5px 7.5px 0;
+    display: inline-block; 
+    padding: 3px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    background-color: rgba(255, 255, 255, 0);
+    margin-top: 10%;
+}
+
+.homepageRight button:hover{
+    width: 5rem;
+    height: 5rem;
+    border: solid #FFD401;
+    border-width: 0 7.5px 7.5px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    background-color: rgba(255, 255, 255, 0);
+    margin-top: 10%;
+    transition: 0.1s;
+}
+
+.Lcontent-section2{
+    flex: 1.25;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    height: 100%;                 /* Match the height of the parent */
+    padding: 20px; 
+    line-height: 3.5rem;
+}
+
+.Lcontent-section2 h1{
+    font-size: 30px;
+    color: #2D3194;
+    text-align: center;  
+}
+
+.Rcontent-section2{
+    background-repeat: no-repeat;
+    background-size: cover; 
+    flex: 2;
+    background-color: rgb(0, 0, 0);
+    display: flex;                /* Makes right-box a flex container */
+    justify-content: center;      /* Centers content horizontally */
+    align-items: center;          /* Centers content vertically */
+    text-align: center;           /* Center-aligns the text inside */
+    color: white;
+    background-image: url('../images/home3right.png');
+}
+
+.split-section2{
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-between; /* Adds space between left and right boxes */
+    align-items: stretch;          /* Makes both sections stretch to fill height */
+    height: 120vh;                 /* Increase the height (e.g., 120% of the viewport height) */ 
+}
+

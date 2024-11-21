@@ -1,0 +1,151 @@
+.split-section {
+    display: flex;
+    justify-content: space-between; /* Adds space between left and right sections */
+    align-items: stretch;           /* Makes both sections stretch to the full height */
+    height: 200vh;                   /* Adjust height as needed */
+    width: 100%;                    /* Ensures it spans full width */
+    margin-top: -300px;             /* Adjusts vertical positioning */
+}
+
+.lightsLeft {
+    flex: 1;                        /* Makes left section flexible */
+    display: flex;                  /* Flex container for centering */
+    justify-content: center;        /* Centers content horizontally */
+    align-items: center;            /* Centers content vertically */
+    background-color: white;    /* Optional: background color for visibility */
+    text-align: center;             /* Center-aligns text inside */
+    padding: 10px;                 /* Optional padding for spacing */
+    flex-direction: column;       /*Makes each text in column*/    
+
+}
+
+.lightsRight button{
+    width: 5rem;
+    height: 5rem;
+    border: solid #2D3194;
+    border-width: 0 7.5px 7.5px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  background-color: rgba(255, 255, 255, 0);
+  margin-top: 35rem;
+}
+
+.lightsRight button:hover{
+    width: 5rem;
+    height: 5rem;
+    border: solid #FFD401;
+    border-width: 0 7.5px 7.5px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    background-color: rgba(255, 255, 255, 0);
+    transition: 0.15s;
+}
+
+#headera{
+    font-size: 80px;
+    background-color: #FFD401;
+    color: #2D3194;
+    text-align: center;
+    min-width: 800px;
+    line-height: -500; /* Adjust line height for text block height */
+    padding: 5px 0; /* Minimal padding to reduce the background height */
+
+    display: flex;
+    align-items: center;     /* Centers vertically */
+    justify-content: center; /* Centers horizontally */
+
+    margin-top: 150px; /* Adjust value to move the element down */
+}
+
+.lightsLeft p{
+    font-size: 10px;
+    color: #2D3194;
+    text-align: center;
+    padding-top: 55px;
+}
+
+.lightsRight{
+    flex: 1;                        /* Makes right section take up more space */
+    background-color: white;        /* Background color for visibility */
+    display: flex;                  /* Flex container for centering */
+    justify-content: center;        /* Centers content horizontally */
+    align-items: center;            /* Centers content vertically */
+    text-align: center;             /* Center-aligns text inside */
+    padding: 10px;                  /* Optional padding for spacing */
+    background-image:  url('../images/RealPoolTable.jpg');
+    background-size: cover;          /* Ensures the image covers the entire container */
+    background-position: center;     /* Centers the image within the container */
+    background-repeat: no-repeat;
+    padding-top: 39.5%;
+}
+
+.lightsLeft p{
+    font-size: 30px;
+}
+
+.lightsLeft h1{
+    font-size: 100px;
+}
+
+.bar h1{
+    font-size: 80px;
+    background-color: #FFD401;
+    color: #2D3194;
+    text-align: center;
+    margin-top: 190px;
+    margin-bottom: 0px;
+}
+
+.visual {
+    display: flex;
+    justify-content: space-between; /* Space out the three sections evenly */
+    align-items: flex-start; /* Ensure horizontal alignment along the center */
+    height: 80vh; /* Height adjustment for uniform vertical sizing */
+}
+
+.left, .right{
+    width: 25%; /* Adjust width for more spacing */
+}
+
+.left h1, .right h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    color: #2D3194
+}
+
+.pool-lights-page .left p{
+    font-size: 3rem;
+    line-height: 2.75rem;
+    margin: 0;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    color: #2D3194;
+}
+
+.pool-lights-page .right p {
+    font-size: 2.75rem;
+    line-height: 2rem;
+    margin: 0;
+    padding: 20px;
+    padding-bottom: 43px;
+    padding-top: 43px;
+}
+
+.pool-lights-page .right .desc {
+    padding-top: 0px;
+}
+
+.middle {
+    width: 100%; /* Width for the middle section */
+}
+
+.middle img {
+    width: 100%;
+    max-height: fit-content;
+    object-fit: contain;
+}
+
